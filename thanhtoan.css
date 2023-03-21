@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.Dau{
+    ;
+    display: flex;
+    width: 100%;
+    height: 170px;
+    background-color: rgb(33, 44, 66);
+}
+.search{
+flex-basis: 10%;
+  margin-left: 150px;
+ margin-top:50px;
+ 
+ 
+}   
+.logo{
+    flex-basis: 60%;
+    position: absolute;
+    left: 40%;
+    transform: translateX(40%x);
+    margin-top: 10px;
+}
+.login{
+    flex-basis: 10%;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: absolute;
+    left: 78%;
+    top:7%;
+    transform: translateX(30%x);
+    border: 1px white;
+    border-style: groove;
+    padding: 6px 6px;
+}
+.Giohang{
+    flex-basis: 10%;
+    margin-top: 7px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: absolute;
+    left: 85%;
+    top:6%;
+    transform: translateX(27%x);
+    border: 1px white;
+    border-style: groove;
+    padding: 6px 6px;
+}
+nav {
+    display: flex;
+    justify-content:space-between;
+    margin-top: 130px;
+    margin-left: -50px;
+}
+
+li{
+    list-style: none;
+}
+.main-menu  li  a {
+    display: block;
+    padding: 5px 18px;
+    color: white;
+    font-size: 21px;
+    margin-left: 40px;
+}
+.main-menu li ul.sub1{
+    margin-top: 7px;
+    position: absolute;
+    background-color: rgb(33, 44, 66);
+    padding: 0px 50px;  
+    width: 880px;
+    height: 295px;
+    border: 1px solid #656262;
+    display: none   ;
+}
+.main-menu li:hover ul.sub1{
+    display: flex;
+    
+}
+.main-menu ul.sub1 a {
+    border-bottom: 1px solid #656262;
+    padding: 5px 45px;
+  
+}
+.main-menu ul.sub1 li:hover a {
+    border: 1px solid #827979
+}
+.main-menu li ul.subb{
+    margin-top: 9px;
+    position: absolute;
+    background-color: rgb(33, 44, 66);
+    padding: 2px 30px;
+    width: 850px;
+    height: 292px;
+    border: 1px solid #656262;
+    display: none   ;
+}
+.main-menu li:hover ul.subb{
+    display: flex;
+
+}
+.main-menu ul.subb a{
+    border-bottom: 1px solid #827979;
+}
+
+
+.main-menu ul.subb li:hover a {
+    border: 1px solid #827979
+}
+#wrapper{
+    transform: translateX(14%) translateY(10%);
+    
+}
+.input-text{
+    padding: 5px 400px 5px 10px;
+    margin-top: 5px;
+    border: 1px solid #777;
+}
+.input-text1{
+    padding: 5px 80px 5px 10px;
+    margin-top: 5px;
+    border: 1px solid #777;
+}
+.sdtgmail{
+    display: flex;
+    margin-top: 10px;
+}
+.boxx{
+    flex-basis: 50%;
+    margin-top: 10px;
+}
+.box{
+    margin-top: 20px;
+    margin-right: 400px;
+    flex-basis:;
+    width: 490px;
+    height: 500px;
+    background-color: white ;
+    border: 2px solid #e5a64e;
+    bo
+}
+.bot {
+    display: flex;
+}

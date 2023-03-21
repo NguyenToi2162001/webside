@@ -1,0 +1,202 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.Dau{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 180px;
+    background-color: rgb(33, 44, 66);
+}
+.search{
+flex-basis: 10%;
+  margin-left: 150px;
+ margin-top:50px;
+ 
+ 
+}   
+.logo{
+    flex-basis: 60%;
+    position: absolute;
+    left: 40%;
+    transform: translateX(40%x);
+    margin-top: 10px;
+    
+}
+.login{
+    flex-basis: 10%;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: absolute;
+    left: 78%;
+    top:30%;
+    transform: translateX(30%x);
+    border: 1px white;
+    border-style: groove;
+    padding: 6px 6px;
+    border-radius: 10%;
+}
+.Giohang{
+    flex-basis: 10%;
+    margin-top: 10px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    position: absolute;
+    left: 85%;
+    top:24%;
+    transform: translateX(27%x);
+    border: 1px white;
+    border-style: groove;
+    padding: 6px 6px;
+    border-radius: 10%;
+}
+nav {
+    display: inline-flex;
+    justify-content:space-between;
+    margin-top: 120px;
+    margin-left: -50px;
+}
+
+.main-menu  li  a {
+    display: block;
+    padding: 5px 18px;
+    color: white;
+    font-size: 21px;
+    margin-left: 54px;
+}
+
+#aaa{
+    display: flex;
+    max-width: 100%;
+    margin-left: 150px;
+    padding: 0px 120px ;
+    margin-top: 20px;
+   
+}
+.gioqua1{
+    margin-top: 10px;
+   margin-left: 23%;
+}
+.gioqua2{
+    margin-top: 20px;
+   margin-left: 23%;
+}
+.sweet{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    margin-left: 120px;
+    
+}
+
+
+.RUOU{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    margin-left: 120px;}
+
+#Duoi{
+    width: 100%;
+    height: 380px;
+    background-color:#777;
+    margin-top: 50px;
+    display: flex;
+}
+.Duoi0{
+    margin-top: 60px;
+    display: flex;
+    position: relative;
+    left: 7%;
+    color: white;
+    font-size: 17px;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: normal}
+.duoi1 li {
+    padding: 4px;
+   
+}
+.duoi2 li {
+    padding: 4px;
+}
+.duoi3 li {
+    padding: 4px;
+}
+.duoi4 li {
+    padding: 4px;
+}
+.duoi2{
+    margin-left: 20px;
+}
+.duoi3{
+    margin-left: 30px;
+}
+.duoi4{
+    margin-left: 340px;
+}
+.main-menu li {
+    position: relative;
+}
+.main-menu li ul.sub1{
+    margin-top: 0px;
+    position: absolute;
+    background-color: rgb(33, 44, 66);
+    padding: 0px 0px;  
+    width: 705px;
+    height: 250px;
+    border: 1px solid #656262;
+    display: none   ;
+}
+.main-menu li:hover ul.sub1{
+    display: flex;
+   
+}
+.main-menu ul.sub1 a {
+    border-bottom: 1px solid #656262;
+    padding: 5px 15px;
+  
+}
+.main-menu ul.sub1 li:hover a {
+    border: 1px solid #827979
+}
+.main-menu li ul.subb{
+
+    position: absolute;
+    background-color: rgb(33, 44, 66);
+    padding: 2px 0px;
+    width: 677px;
+    height: 236px;
+    border: 1px solid #656262;
+    display: none   ;
+}
+.main-menu li:hover ul.subb{
+    display: flex;
+
+}
+.main-menu ul.subb a{
+    border-bottom: 1px solid #827979;
+}
+
+
+.main-menu ul.subb li:hover a {
+    border: 1px solid #827979
+}
+.gioqua11:hover{
+    zoom:102%
+    
+}
+.gioqua12:hover{
+    zoom:102%
+}
+.gioqua21:hover{
+    zoom:102%
+}
+.gioqua22:hover{
+    zoom:102%
+}
